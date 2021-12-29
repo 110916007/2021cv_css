@@ -1,0 +1,148 @@
+.title{
+    text-align: center; 
+    font-size: 30px; 
+    font-family: Arial; 
+    margin-top: 0px;
+    padding: 10px;
+}
+.border-circle{
+    width: 300px;
+    border-radius: 50%;
+    border: solid 3px;
+    position: relative;
+    top: 60px;
+    z-index: auto;
+}
+.FirstPage{
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: url("Pics/fullbackground.png") center center /cover no-repeat fixed;
+    font-size: 30px;
+    right: 0px;
+    left: 0px;
+}
+.fixedbar{
+    text-align: center;
+    position:fixed;
+    top: 0px;
+    background-color:#B2B8A3;
+    width: 100%;
+    z-index: 3;
+    left: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+header ul{
+    list-style-type: none;
+    margin: 0%;
+    margin-left: 0%;
+}
+header ul li{
+    float:left;
+    width: 20%;
+}
+header ul li a{
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover {
+    background-color: #eaeaed;
+}
+.profilePage{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 4px dashed rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.image2{
+    border-radius: 50px;
+    width: 50%;
+    margin-top: 5px;
+}
+.link:hover{
+    background-color: #eaeaed;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6%;
+}
+.cardItem{
+    flex-basis: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: dashed 4px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    margin: 3%;
+    text-align: center;
+    font-size: 28px;
+}
+.habbiesPic{
+    width: 240px;
+    height: 270px;
+    border-radius: 50px;
+}
+@keyframes anime{
+    0%  {display: none; left: 80%;}
+    10% {left: 0%;}
+}
+.anime1{
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.anime2{
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 0.1s;
+}
+.anime3{
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-delay: 0.2s;
+}
+footer{
+    background-color: #F4C7AB;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 55%;
+    z-index: 5;
+}
+.timelineItem{
+    align-items: center; 
+    display: flex; 
+    margin: -22px;
+}
+.timelineDot{
+    background-color: rgb(170, 170, 170); 
+    border-radius: 9999px; 
+    height: 36px; 
+    width: 36px;
+}
+.timelineContent{
+    margin-left: 48px; 
+    background-color: white; 
+    border-radius: 10px; 
+    padding: 5px;
+}
